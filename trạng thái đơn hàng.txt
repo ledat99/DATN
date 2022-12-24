@@ -1,0 +1,9 @@
+chờ xác nhận 0 
+đã xác nhận 1
+đang giao hàng 2
+
+hủy đơn hàng 4  
+
+đã nhận được hàng 6
+php phiên bản 7.4.29
+

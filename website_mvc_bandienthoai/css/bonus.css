@@ -1,0 +1,218 @@
+.info_product {
+    width: 33%;
+    border: 1px solid #ddd;
+    float: left;
+    border-radius: 3px;
+    display: block;
+}
+
+.info_product h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.info {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.info li {
+    list-style: none;
+    display: table;
+    border-top: 1px solid #eee;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.info li p {
+    /*clear: both;*/
+    float: left;
+    margin: 5px 0;
+    width: 40%;
+    color: #666;
+    font-weight: bold;
+}
+
+.info li i {
+    font-size: 25px;
+}
+
+/* .info li div {
+    width: 60%;
+    float: left;
+    margin: 5px 0;
+    color: #333;
+    font-style: italic;
+} */
+.error {
+    display: inline-block;
+	font-size: 24px;
+	color: #D10024;
+}
+.success {
+    display: inline-block;
+	font-size: 24px;
+	color: green;
+}
+.rating {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.rating .fa-star,
+.rating .fa-star-o {
+    color: #D10024;
+    font-size: 24px;
+}
+.comment-area {
+    float: none;
+    width: 100%;
+}
+
+.comment-area h2 {
+    margin: 10px 0 10px 10px;
+}
+
+/* Chat comment */
+.comment {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat comment */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.comment::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.comment>i {
+    float: left;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.comment h4 {
+    /*float: left;*/
+    margin-right: 20px;
+}
+
+.comment h4 i.fa-star {
+    color: #D10024;
+}
+
+/* Style time text */
+.time {
+    float: left;
+    color: #999;
+}
+
+.time:before {
+    content: "\f017";
+    color: #ddd;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.comment-content {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+/* ================== Binh luan ==================*/
+.guiBinhLuan {
+    box-sizing: border-box;
+    border: 10px solid #E4E7ED;
+}
+
+#inpBinhLuan {
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+#btnBinhLuan {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #D10024;
+    color: white;
+    font-weight: bold;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#btnBinhLuan:hover {
+    background-color: #D10024;
+}
+
+/*https://www.cssscript.com/simple-5-star-rating-system-with-css-and-html-radios/*/
+div.stars {
+    width: 250px;
+    display: inline-block;
+}
+
+input.star {
+    display: none;
+}
+
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 30px;
+    color: #444;
+    transition: all .2s;
+}
+
+input.star:checked~label.star:before {
+    content: "\f005";
+    color: #D10024;
+}
+
+input.star-5:checked~label.star:before {
+    color: #D10024;
+    text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked~label.star:before {
+    color: #D10024;
+}
+
+input.star-2:checked~label.star:before {
+    color: #D10024;
+}
+
+input.star-3:checked~label.star:before {
+    color: #D10024;
+}
+
+label.star:hover {
+    transform: rotate(10deg) scale(1.3);
+}
+
+label.star:before {
+    content: "\f006";;
+    font-family: FontAwesome;
+    color: #E4E7ED;
+    transition: 0.2s all;
+}

@@ -1,0 +1,173 @@
+.table-content table{
+    background: #fff none repeat scroll 0 0;
+    border-color: #c1c1c1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+}
+.table-content table th {
+    border-top: medium none;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.table-content table th,.table-content table td{
+    border-bottom: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+}
+.table-content table td{
+    border-top: medium none;
+    padding: 20px 10px;
+    vertical-align: middle;
+    font-size: 13px;
+      text-align: center !important;
+}
+.table-content table td input{
+    background: #e5e5e5 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #6f6f6f;
+    font-size: 15px;
+    font-weight: normal;
+    height: 40px;
+    padding: 0 5px 0 10px;
+    width: 80px;
+}
+
+
+.table-content table td.product-subtotal {
+    color: #313131;
+    font-size: 14px;
+    width: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.table-content table td.product-name a {
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.table-content table td.product-name{
+    width: 270px;
+    text-align: center;
+}
+.table-content table td.product-thumbnail{
+    width: 130px;
+}
+.table-content table td.product-remove i {
+    color: #212121;
+    display: inline-block;
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.table-content table .product-price .amount {
+    color: #313131;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-weight: 600;
+}
+.table-content table td.product-remove i:hover {
+    color: #ee393e;
+}
+.table-content table td.product-quantity{
+    width: 180px;
+}
+.table-content table td.product-remove{
+    width: 150px;
+}
+.table-content table td.product-price{
+    width: 130px;
+}
+.table-content table td.product-name a:hover,.buttons-cart a:hover{
+    color: #c43b68
+}
+.buttons-cart a {
+    background: #ebebeb none repeat scroll 0 0;
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    height: 62px;
+    line-height: 62px;
+    padding: 0 45px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.buttons-cart input,
+.coupon input[type="submit"],
+.coupon-info p.form-row input[type="submit"] {
+    background: #252525 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 15px;
+    padding: 0 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+}
+.buttons-cart input:hover,
+.coupon input[type=submit]:hover, 
+.buttons-cart a:hover{
+    background:#D10024;
+    color:#fff !important;
+}
+.buttons-cart--inner {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-cart a + a {
+    margin-left: 20px;
+}
+.coupon {
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.coupon h3{
+    margin: 0 0 10px;font-size: 14px;
+    text-transform: uppercase;
+}
+.coupon input[type=text]{
+    border: 1px solid #c1c1c1;
+    float: left;
+    height: 40px;
+    margin: 0 6px 20px 0;
+    max-width: 100%;
+    padding: 0 0 0 10px;
+    width: 170px;
+}
+.table-content table td.product-remove>a {
+    color: red;
+    font-size: 14px;
+    width: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.table-content table td input #submit:hover{
+    background:#D10024;
+    color:#fff !important;
+}

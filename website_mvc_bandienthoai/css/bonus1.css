@@ -1,0 +1,110 @@
+.htc__cart__total h6 {
+    background: #D10024;
+    font-size: 14px;
+    font-weight: 500;
+    height: 67px;
+    line-height: 65px;
+    padding: 0 32px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.cart__total {
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+.cart__total span {
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.payment__btn {
+    margin-top: 54px;
+}
+.payment__btn li a {
+    background: #ebebeb none repeat scroll 0 0;
+    color: #3f3f3f;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.payment__btn li + li {
+    margin-top: 15px;
+}
+.payment__btn li a:hover,
+.payment__btn li.active a {
+    background: #212121 none repeat scroll 0 0;
+    color: #fff;
+}
+.payment__btn li.active a:hover{
+  background: #ebebeb;
+  color: #3f3f3f;
+}
+.htc__cart__total {
+    padding-left: 110px;
+    margin-bottom: 40px;
+}
+
+.cart__desk__list {
+    display: flex;
+    justify-content: space-between;
+}
+.cart__desc li {
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.cart__desk__list {
+    margin-bottom: 33px;
+    margin-top: 38px;
+}
+.cart__desc li + li {
+    padding-top: 18px;
+}
+.cart__price li + li {
+    padding-top: 18px;
+}
+.cart__price li {
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.product-name .pro__prize {
+    margin-top: 4px;
+}
+.buttons-cart a{
+background: #ebebeb none repeat scroll 0 0;
+color: #3f3f3f;
+font-family: 'Poppins', sans-serif;
+font-size: 12px;
+font-weight: 500;
+height: 62px;
+line-height: 62px;
+padding: 0 45px;
+text-transform: uppercase;
+display: inline-block;
+}
+/* .table-content table td input #submit {
+    background: #D10024 none repeat scroll 0 0;
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    height: 62px;
+    line-height: 62px;
+    padding: 0 45px;
+    text-transform: uppercase;
+    display: inline-block;
+} */
+
